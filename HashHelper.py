@@ -13,7 +13,3 @@ def sha256_hash(payload):
     h.update(payload)
 
     return h.hexdigest()
-
-
-def compare_sha256_hash(payload, hash_payload):
-    return sha256_hash(payload) == hash_payload
