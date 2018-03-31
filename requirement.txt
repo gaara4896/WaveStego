@@ -1,0 +1,2 @@
+click==6.7
+pytaglib==1.4.3
